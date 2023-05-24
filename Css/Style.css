@@ -1,0 +1,106 @@
+@import url('https:fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+a.navbar-brand {
+    margin-right: -150px !important;
+    margin-left: 150px !important;
+}
+
+ul li a {
+    color: #004e98 !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    padding-right: 25px !important;
+    padding-left: 25px !important;
+}
+
+.nav-link:hover {
+    background-color: #004e98 !important;
+    color: white !important;
+    border: none;
+    border-radius: 4px;
+}
+.dropdown-item {
+    color: #004e98 !important;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    border-color:white !important;
+}
+.dropdown-item:hover {
+    background-color: #004e98 !important;
+    color: white !important;
+    border: none;
+    border-radius: 4px;
+}
+
+.navbar-toggler {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+    
+}
+
+.navbar-toggler span {
+    margin: 0;
+    padding: 0;
+}
+
+.toggler-icon {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #00158bd2;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25 ease-in-out;
+}
+
+.middle-bar {
+    margin-top: 0px;
+}
+/*when nav is clicked*/
+
+.navbar-toggler .top-bar {
+    margin-top: 0px;
+    transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity(0));
+}
+
+.navbar-toggler .bottom-bar {
+    margin-top: 0px;
+    transform: rotate(-135deg);
+}
+
+/* state when the nav is collapsed*/
+
+.navbar-toggler.collapsed .top-bar {
+    margin-top: -20px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    margin-top: 20px;
+    transform: rotate(0deg);
+}
