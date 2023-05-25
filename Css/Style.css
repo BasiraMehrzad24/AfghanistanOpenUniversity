@@ -104,3 +104,114 @@ ul li a {
     margin-top: 20px;
     transform: rotate(0deg);
 }
+
+
+/* Moto Page Section 
+/*Creates empty space for the navbar on the top of the page*/
+/*body {
+	margin-top: 10vh;
+}*/
+h1 {
+	font-size: 24px;
+	font-family: Calisto MT ;
+	color: #004e98;
+}
+p {
+	font-family: Geometric sans serif;
+	font-size: 20px;
+}
+
+/*Start of carousel Style code*/
+.carousel {
+	width: 80%;
+	margin: 10vh 0 10vh 10%;
+}
+.carousel-inner {
+	border-radius: 7px;
+	box-shadow:0 1rem 3rem rgba(0,0,0,.200)!important;
+}
+.carousel-item {
+	height: 80vh;
+	width: 100%;
+	min-height: 300px;
+}
+.carousel-item .carousel-img {
+	top: 0;
+	left: 0;
+	min-width: 80%;
+	height: 100vh;
+	filter: brightness(60%);
+	position: absolute;
+}
+.carousel-caption {
+	top: 25vh;
+	z-index: 10;
+}
+.carousel-caption h1 {
+	font-family: Calisto MT ;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 24px;
+}
+.carousel-caption p {
+	width: 60%;
+	text-align: center;
+	margin: auto;
+	font-size: 20px;
+	line-height: 1.9;
+	font-family: Geometric sans serif ;
+}
+.carousel-caption a {
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 1vh 2vh ;
+	margin-top: 15px;
+	color: white;
+	background-color: #3A6EA5 ;
+	border: 2px solid transparent;
+	border-radius: 5px;
+	font-size: 16px;
+	font-family: Geometric sans serif;
+
+}
+.carousel-caption a:hover {
+	background-color: transparent;
+	border: 2px solid #3A6EA5;
+}
+
+/* RESPONSIVE CSS for Carousel--------------------------- */
+@media (max-width: 700px) {
+	.carousel {
+		top: 0;
+		margin: 0;
+		width: 100%;
+		margin-bottom: 7vh;
+	}
+	.carousel .carousel-img {
+		height: 50vh;
+	}
+	.carousel-inner {
+		border-radius: 0;
+		height: 50vh;
+	}
+	.carousel-caption {
+		top: 8vh;
+	}
+	.carousel-caption h1 {
+		font-size: 20px;
+	}
+	.carousel-caption p {
+		margin-bottom: 17px;
+		font-size: 16px;
+		line-height: 1.3;
+	}
+	.carousel-caption a {
+		font-size: 14px;
+		margin-top: 8px;
+	}
+}
+/*End of Carousel Style code*/
+
