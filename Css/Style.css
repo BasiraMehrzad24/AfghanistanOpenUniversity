@@ -8,8 +8,44 @@ ul li a {
     color: #004e98 !important;
     font-weight: 500 !important;
     font-size: 15px !important;
-    padding-right: 25px !important;
-    padding-left: 25px !important;
+    padding: 8px 22px !important;
+    height: 40px;
+}
+
+.navbar-items {
+    width: 86%;
+    margin-left: 7% !important;
+    margin-right: 0 !important;
+}
+.navbar-brand {
+    width: 10%;
+}
+.navbar-collapse {
+    width: 90%;
+}
+
+@media (max-width: 1300px) {
+    .navbar-items {
+        width: 100%;
+    }
+    ul li a {
+        padding-left: 18px !important;
+        padding-right: 18px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    ul li a {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+@media (max-width: 1100px) {
+    ul li a {
+        padding-left: 11px !important;
+        padding-right: 11px !important;
+    }
 }
 
 .nav-link:hover {
@@ -35,6 +71,8 @@ ul li a {
 }
 
 .navbar-toggler {
+    padding-top: 35px;
+    margin-right: 10%;
     width: 20px;
     height: 20px;
     position: relative;
@@ -107,12 +145,6 @@ ul li a {
     transform: rotate(0deg);
 }
 
-
-/* Moto Page Section 
-/*Creates empty space for the navbar on the top of the page*/
-/*body {
-	margin-top: 10vh;
-}*/
 h1 {
     font-size: 24px;
     font-family: Calisto MT;
