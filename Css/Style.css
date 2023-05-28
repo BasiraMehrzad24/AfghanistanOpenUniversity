@@ -582,6 +582,7 @@ body {
     background: #fff;
     border-radius: 20px;
     overflow: hidden;
+    margin: 5px;
     margin-bottom: 30px;
     -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
@@ -591,7 +592,11 @@ body {
 
 .course-card:hover {
     -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-out;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+    border: 1px solid #004E98;
+    border-top: none;
 }
 
 .course-card .course-card_img {
