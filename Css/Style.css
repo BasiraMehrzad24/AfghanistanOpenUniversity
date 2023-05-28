@@ -1,7 +1,7 @@
 @import url('https:fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 a.navbar-brand {
-  justify-content: space-around;
+    justify-content: space-around;
 }
 
 ul li a {
@@ -388,6 +388,10 @@ p {
 
 }
 
+.inner .one a {
+    text-decoration: none;
+}
+
 .one:hover {
     transform: scale(1.1);
 }
@@ -504,7 +508,7 @@ h2 {
     display: flex;
 }
 
-.btn {
+.btn-professionalProgram {
     float: right;
     background-color: #EBEBEB;
     padding: 4px;
@@ -516,7 +520,7 @@ h2 {
 
 }
 
-.btn:hover {
+.btn-professionalProgram:hover {
     cursor: pointer;
     color: #f4f4f4;
     background: #004E98
@@ -533,4 +537,274 @@ span {
     margin: 0;
     border: none;
 
+}
+
+/* Courses Section Started @naseerfetrat*/
+
+.hexagon {
+    --Nhexa: 7;
+    position: absolute;
+    top: -35px;
+    left: 50px;
+    --gap: 2vw;
+    --size: calc(calc(100vw / var(--Nhexa)) - var(--gap));
+    margin: calc(var(--size) * .5) auto 0;
+    width: calc(var(--size) * calc(var(--Nhexa) - 1));
+
+    width: 140px !important;
+    display: grid;
+    grid-template-columns: repeat(var(--Nhexa), 1fr);
+    grid-gap: var(--gap);
+
+}
+
+.hexagonImg {
+    position: absolute;
+    background: #94afcd;
+    width: var(--size);
+    height: calc(var(--size) / 1.1111111);
+    clip-path: url(#hexagono);
+    clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+    margin-right: calc(var(--size) / 2);
+    color: #fff;
+    overflow: hidden;
+
+}
+
+.hexagonImg::before {
+    content: '';
+    float: left;
+    /* width: 25%;
+        height: 100%; */
+    clip-path: polygon(0% 0%, 100% 0%, 0% 50%, 100% 100%, 0% 100%);
+    shape-outside: polygon(0% 0%, 100% 0%, 0% 50%, 100% 100%, 0% 100%);
+
+}
+
+.hexagon article img {
+    /* width: var(--size);
+        height: var(--size); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: 0% 50%;
+    transition: .75s;
+    clip-path: url(#hexagono);
+    clip-path: inherit;
+    z-index: 10;
+
+}
+
+.hexagonImg:hover img {
+    transform: translate(-50%, -50%) rotate(-110deg);
+}
+
+body {
+    background: #f9f9f9;
+    font-family: "roboto", sans-serif;
+}
+
+.main-content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.course-card {
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 5px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+}
+
+.course-card:hover {
+    -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-out;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+    border: 1px solid #004E98;
+    border-top: none;
+}
+
+.course-card .course-card_img {
+    display: block;
+    position: relative;
+}
+
+.course-card .course-card_img img {
+    width: 100%;
+    height: 200px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.course-card .course-card_img i {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #fff;
+    font-size: 25px;
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.course-card .course-card_img i:hover {
+    top: 18px;
+    right: 28px;
+    font-size: 29px;
+}
+
+.course-card .course-card_content {
+    padding: 15px;
+}
+
+.course-card .course-card_content .course-card_title-section {
+    overflow: hidden;
+}
+
+.course-card .course-card_content .course-card_title-section .course-card_title {
+    font-size: 24px;
+    color: #004e98;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    line-height: 1.3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.course-card .course-card_content .course-card_title-section .course-card_author {
+    font-size: 15px;
+    display: block;
+}
+
+.course-card .course-card_content .course-card_bottom-section .space-between {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.begin-now-btn {
+    color: #004e98;
+
+}
+
+
+@media (min-width: 992px) {
+    .course-card--vertical {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        height: 235px;
+    }
+
+    .course-card--vertical .course-card_img img {
+        width: 200px;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 2000px) {
+    .hexagon {
+        --Nhexa: 10;
+        position: absolute;
+        top: -40px;
+        left: 50px;
+
+    }
+}
+
+@media (max-width: 1850px) {
+    .hexagon {
+        --Nhexa: 9;
+        position: absolute;
+        top: -40px;
+        left: 50px;
+
+    }
+}
+
+@media (max-width: 1500px) {
+    .hexagon {
+        --Nhexa: 7.5;
+        position: absolute;
+        top: -40px;
+        left: 50px;
+
+    }
+}
+
+@media (max-width: 1240px) {
+    .hexagon {
+        --Nhexa: 7.5;
+        position: absolute;
+        top: -15px;
+        left: 50px;
+
+    }
+}
+
+@media (max-width: 1024px) {
+    .hexagon {
+        --Nhexa: 6;
+        position: absolute;
+        top: -25px;
+        left: 60px;
+
+    }
+}
+
+@media (max-width: 992px) {
+    .hexagon {
+        --Nhexa: 6;
+        margin: auto !important;
+        margin-top: 60PX !important;
+
+    }
+}
+
+@media (max-width: 640px) {
+    .hexagon {
+        --Nhexa: 4;
+        margin: auto !important;
+        margin-top: 60PX !important;
+
+    }
+}
+
+@media (max-width: 420px) {
+    .hexagon {
+        --Nhexa: 3;
+        /* margin: auto !important; */
+        margin-top: 20% !important;
+        margin-left: 15% !important;
+
+    }
+}
+
+.basic-course-card-information {
+    margin: 15px;
+    margin-top: 0px;
+}
+
+.btn-register {
+    /* line-height: 13px !important; */
+    /* height: 30px; */
+    background-color: #004e98;
 }
