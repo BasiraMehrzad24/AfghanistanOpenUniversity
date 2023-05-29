@@ -20,9 +20,11 @@ ul li a {
     margin-left: 7% !important;
     margin-right: 0 !important;
 }
+
 .navbar-brand {
     width: 10%;
 }
+
 .navbar-collapse {
     width: 90%;
 }
@@ -31,6 +33,7 @@ ul li a {
     .navbar-items {
         width: 100%;
     }
+
     ul li a {
         padding-left: 18px !important;
         padding-right: 18px !important;
@@ -263,6 +266,7 @@ ul li a {
     margin-left: 20%;
     padding-top: 50px;
 }
+
 .section-header h3 {
     color: #004E98;
     font-size: 24px;
@@ -348,37 +352,44 @@ ul li a {
     .programItems {
         width: 90%;
         margin-left: 5%;
-     }  
-    .programItem  {
+    }
+
+    .programItem {
         width: 50%;
     }
+
     .ourProgram .img img {
         height: 45vh;
         width: 100%;
     }
+
     .ourProgram .details {
         margin: 0 6%;
         width: 88%;
         height: 35vh;
     }
-    .ourProgram .details h5,.ourProgram .details p {
+
+    .ourProgram .details h5,
+    .ourProgram .details p {
         padding: 0;
         margin: 0;
-    } 
+    }
 }
 
-@media (max-width: 800px) { 
+@media (max-width: 800px) {
     .ourProgram .img img {
         height: 48vh;
     }
+
     .ourProgram .details {
         height: 32vh;
     }
-    .programItem      {
+
+    .programItem {
         width: 90%;
         margin-left: 5%;
     }
-}    
+}
 
 /*language part*/
 
@@ -424,7 +435,8 @@ ul li a {
     transform: scale(1.1);
 }
 
-.one h3,.one p {
+.one h3,
+.one p {
     text-align: center;
     padding: 5px;
     font-size: 20px;
@@ -462,6 +474,7 @@ button {
     margin-left: 20%;
     padding-top: 50px;
 }
+
 .section-header h3 {
     color: #004E98;
     font-size: 24px;
@@ -475,6 +488,7 @@ button {
     font-family: Geometric sans serif;
     font-size: 20px;
 }
+
 #Pcard {
     gap: 70px;
     padding: 40px 30px;
@@ -516,7 +530,8 @@ button {
     font-size: 24px;
 }
 
-.main_items h2, .main_items h3 {
+.main_items h2,
+.main_items h3 {
     padding-right: 25px;
     font-size: 16px;
 }
@@ -543,9 +558,10 @@ button {
 .professional .bottom-part {
     width: 100%;
 }
+
 .professional .bottom-part span {
     padding: 0 4.5%;
-    
+
 }
 
 .main_items span {
@@ -562,7 +578,8 @@ button {
     margin-top: 7%;
 }
 
-.main_items h2, .main_items h3 {
+.main_items h2,
+.main_items h3 {
     padding: 5px 15px;
     font-family: Geometric sans serif;
 }
@@ -571,13 +588,16 @@ button {
     .image-container {
         height: 34vh;
     }
+
     .professional {
         width: 80%;
         margin-left: 10%;
     }
+
     .professional p {
         width: 100%;
     }
+
     .professional .section-header {
         width: 100%;
         margin: 0;
@@ -864,12 +884,14 @@ body {
     margin-left: 20%;
     margin-bottom: 5vh;
 }
+
 .about-part h1 {
     margin: 8vh 0vh;
     font-size: 24px;
     font-family: Calisto MT;
     color: #004E98;
 }
+
 .about-part p {
     letter-spacing: 0.8px;
     font-family: Geometric sans serif;
@@ -878,9 +900,187 @@ body {
 
 /* RESPONSIVE CSS for About--------------------------- */
 @media (max-width: 900px) {
-    .about-part{
+    .about-part {
         width: 80%;
         margin-left: 10%;
     }
 }
+
 /*End of About Style code*/
+
+
+
+/*Footer Section*/
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+a,
+a:active,
+a:focus {
+    color: #6f6f6f;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+section {
+    padding: 60px 0;
+    min-height: 100vh;
+}
+
+.footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    background-color: #0B2E50;
+    align-items: center;
+}
+
+
+.footer .socialLinks {
+    display: inline-block;
+}
+
+.socialLinks ul li {
+    display: block;
+    padding: 4px;
+}
+
+
+.socialLinks ul li a i {
+    display: block;
+    margin: 0 2px;
+    width: 40px;
+    height: 40px;
+    background: #fafafa;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
+    line-height: 40px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.socialLinks ul li a .fa-facebook-f {
+    color: #4267b2;
+}
+
+.socialLinks ul li a .fa-twitter {
+    color: #1da1f2;
+}
+
+.socialLinks ul li a .fa-instagram {
+    color: #d92e7f;
+}
+
+.socialLinks ul li a .fa-youtube {
+    color: #dd5044;
+}
+
+
+.socialLinks ul li a:hover i {
+    color: #fff;
+}
+
+.socialLinks ul li a:hover .fa-facebook-f {
+    background: #4267b2;
+}
+
+.socialLinks ul li a:hover .fa-twitter {
+    background: #1da1f2;
+}
+
+.socialLinks ul li a:hover .fa-instagram {
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+}
+
+.socialLinks ul li a:hover .fa-youtube {
+    background: #dd5044;
+}
+
+.footer h5 {
+    font-weight: 500;
+    margin-bottom: 28px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px
+}
+
+.footer .blog .media img {
+    margin-right: 20px;
+    max-width: 100px;
+}
+
+.footer .blog .media p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, .8);
+    ;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.footer .blog .media span {
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 15px;
+    display: block;
+}
+
+.footer .blog .media {
+    margin-bottom: 18px;
+}
+
+.footer .quickLinks ul li a,
+.footer .contact ul li a {
+    font-size: 15px;
+    color: rgba(255, 255, 255, .6);
+    ;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer .contact ul li a i {
+    margin-right: 10px;
+}
+
+.footer .quickLinks h5 {
+    margin-bottom: 22px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer .contact h5 {
+    margin-bottom: 22px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+}
