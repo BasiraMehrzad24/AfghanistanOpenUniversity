@@ -12,6 +12,7 @@ ul li a {
     font-size: 15px !important;
     padding: 8px 22px !important;
     height: 40px;
+    font-family: Calisto MT;
 }
 
 .navbar-items {
@@ -265,13 +266,15 @@ ul li a {
 .section-header h3 {
     color: #004E98;
     font-size: 24px;
+    font-family: Calisto MT;
 }
 
 .section-header p {
     max-width: 800px;
     margin: 0 auto;
-    font-size: 16px;
-    font-weight: 500;
+    letter-spacing: 0.8px;
+    font-family: Geometric sans serif;
+    font-size: 20px;
 }
 
 .ourProgram .img {
@@ -310,7 +313,8 @@ ul li a {
     color: #004e98;
     font-weight: 500;
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 24px;
+    font-family: Calisto MT;
 }
 
 .ourProgram .details p {
@@ -318,19 +322,24 @@ ul li a {
     font-size: 14px;
     margin-bottom: 0;
     font-weight: 500;
+    letter-spacing: 0.8px;
+    font-family: Geometric sans serif;
+    font-size: 16px;
 }
 
 .click_more .btn {
     float: right;
     background-color: #004e98;
-    color: aliceblue;
+    color: #ffffff;
+    font-family: Geometric sans serif;
 }
 
 .details .btn {
     float: center;
     background-color: #004e98;
-    color: aliceblue;
+    color: #ffffff;
     margin: 10px;
+    font-family: Geometric sans serif;
 }
 
 /*My program's responave code*/
@@ -418,46 +427,54 @@ ul li a {
 .one h3,.one p {
     text-align: center;
     padding: 5px;
+    font-size: 20px;
+    font-family: Calisto MT;
 }
 
 .one p {
-    font-size: 12px;
+    font-size: 16px;
     padding-top: 10px;
+    letter-spacing: 0.8px;
+    font-family: Geometric sans serif;
+
 }
 
 .one h3 {
-    color: rgb(40, 96, 181);
+    color: #004E98;
 }
 
 button {
-    border: 1px solid white;
+    border: 1px solid #ffffff;
     border-radius: 10px;
     padding: 7px;
-    background-color: rgb(40, 96, 181);
+    background-color: #004E98;
+    font-family: Geometric sans serif;
     display: block;
     margin: 0 auto;
     margin-top: 18px;
-    color: #fff;
+    color: #ffffff;
 }
 
 /*Professional Program*/
 
-.professional {
-    justify-content: center;
-    min-height: 100%;
-    line-height: 1.2rem;
+.section-header {
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 50px;
+}
+.section-header h3 {
+    color: #004E98;
+    font-size: 24px;
+    font-family: Calisto MT;
 }
 
-header {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.section-header p {
+    max-width: 800px;
+    margin: 0 auto;
+    letter-spacing: 0.8px;
+    font-family: Geometric sans serif;
+    font-size: 20px;
 }
-
-header p {
-    font-size: 16px;
-}
-
 #Pcard {
     gap: 70px;
     padding: 40px 30px;
@@ -510,15 +527,16 @@ header p {
 }
 
 .btn-professional {
-    background-color: #EBEBEB;
+    background-color: #ffffff;
     padding: 4px;
     border: #004E98 solid 1px;
     border-radius: 10px;
     color: #004E98;
+    font-family: Geometric sans serif;
 }
 
 .btn-professional:hover {
-    color: #f4f4f4;
+    color: #ffffff;
     background: #004E98
 }
 
@@ -527,10 +545,12 @@ header p {
 }
 .professional .bottom-part span {
     padding: 0 4.5%;
+    
 }
 
 .main_items span {
     font-size: 11.5px;
+    font-family: Geometric sans serif;
 }
 
 .card {
@@ -693,8 +713,9 @@ body {
 }
 
 .course-card .course-card_content .course-card_title-section .course-card_title {
-    font-size: 24px;
+    font-size: 20px;
     color: #004e98;
+    font-family: Geometric sans serif;
     font-weight: 500;
     text-decoration: none;
     display: block;
@@ -724,7 +745,7 @@ body {
 
 .begin-now-btn {
     color: #004e98;
-
+    font-family: Geometric sans serif;
 }
 
 
@@ -826,12 +847,15 @@ body {
 .basic-course-card-information {
     margin: 15px;
     margin-top: 0px;
+    font-family: Geometric sans serif;
+    font-size: 16px;
 }
 
 .btn-register {
     /* line-height: 13px !important; */
     /* height: 30px; */
     background-color: #004e98;
+    font-family: Geometric sans serif;
 }
 
 /*Start of About Style code*/
@@ -843,7 +867,8 @@ body {
 .about-part h1 {
     margin: 8vh 0vh;
     font-size: 24px;
-    font-family: Calisto MT ;
+    font-family: Calisto MT;
+    color: #004E98;
 }
 .about-part p {
     letter-spacing: 0.8px;
