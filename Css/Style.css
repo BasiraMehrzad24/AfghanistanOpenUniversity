@@ -1,5 +1,7 @@
 @import url('https:fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+/*Navbar Style code*/
+
 a.navbar-brand {
     justify-content: space-around;
 }
@@ -145,17 +147,6 @@ ul li a {
     transform: rotate(0deg);
 }
 
-h1 {
-    font-size: 24px;
-    font-family: Calisto MT;
-    color: #004e98;
-}
-
-p {
-    font-family: Geometric sans serif;
-    font-size: 20px;
-}
-
 /*Start of carousel Style code*/
 .carousel {
     width: 80%;
@@ -266,7 +257,11 @@ p {
 /*End of Carousel Style code*/
 
 /* Our Program Part*/
-
+.section-header {
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 50px;
+}
 .section-header h3 {
     color: #004E98;
     font-size: 24px;
@@ -338,7 +333,7 @@ p {
     margin: 10px;
 }
 
-/*My program responave code*/
+/*My program's responave code*/
 
 @media (max-width: 1200px) {
     .programItems {
@@ -377,18 +372,6 @@ p {
 }    
 
 /*language part*/
-.section-header h3 {
-    color: #004E98;
-    font-size: 24px;
-    padding-top: 50px;
-}
-
-.section-header p {
-    max-width: 800px;
-    margin: 0 auto;
-    font-size: 16px;
-    font-weight: 500;
-}
 
 #container {
     display: flex;
@@ -410,7 +393,6 @@ p {
     flex-wrap: wrap;
     margin: 0 auto;
     margin-top: 0px;
-
 }
 
 .one {
@@ -420,11 +402,9 @@ p {
     border-radius: 10px;
     width: 300px;
     height: 250px;
-
     margin: 22px;
     padding: 15px;
     float: left;
-
 }
 
 .inner .one a {
@@ -435,18 +415,17 @@ p {
     transform: scale(1.1);
 }
 
-.one h3,
-p {
+.one h3,.one p {
     text-align: center;
     padding: 5px;
 }
 
-p {
+.one p {
     font-size: 12px;
     padding-top: 10px;
 }
 
-h3 {
+.one h3 {
     color: rgb(40, 96, 181);
 }
 
@@ -459,28 +438,17 @@ button {
     margin: 0 auto;
     margin-top: 18px;
     color: #fff;
-
-
-
 }
 
-
-
-
-
-/*Profitional Program*/
-
+/*Professional Program*/
 
 .professional {
-
     justify-content: center;
-    flex-direction: column;
     min-height: 100%;
     line-height: 1.2rem;
 }
 
 header {
-
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -491,15 +459,14 @@ header p {
 }
 
 #Pcard {
-    display: flex;
     gap: 70px;
     padding: 40px 30px;
     justify-content: center;
-
 }
 
 .image-container {
-    height: 170px;
+    height: 33vh;
+    width: 100%;
     overflow: hidden;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -510,72 +477,91 @@ header p {
     cursor: pointer;
 }
 
-
-.img {
+.professional .img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
 .main_items {
-    display: flex;
-    flex-direction: column;
     padding: 20px 20px;
     gap: 10px;
     border: none;
 }
 
-h3,
-p {
+.professional p {
     margin: 0;
     font-size: 16px;
-
+    font-family: Geometric sans serif
 }
 
-h2,
-h3 {
+.professional h3 {
+    font-size: 24px;
+}
+
+.main_items h2, .main_items h3 {
     padding-right: 25px;
-
+    font-size: 16px;
 }
 
-
-
-
-h2 {
+.professional h2 {
     color: rgb(177 177, 177);
     font-size: 16px;
-    display: flex;
 }
 
-.btn-professionalProgram {
-    float: right;
+.btn-professional {
     background-color: #EBEBEB;
     padding: 4px;
-    font-size: 0.8rem;
     border: #004E98 solid 1px;
     border-radius: 10px;
-    align-self: center;
     color: #004E98;
-
 }
 
-.btn-professionalProgram:hover {
-    cursor: pointer;
+.btn-professional:hover {
     color: #f4f4f4;
     background: #004E98
 }
 
-span {
+.professional .bottom-part {
+    width: 100%;
+}
+.professional .bottom-part span {
+    padding: 0 4.5%;
+}
+
+.main_items span {
     font-size: 11.5px;
 }
 
 .card {
     background: #EBEBEB;
     border-radius: 15px;
-    width: 320px;
     margin: 0;
     border: none;
+    width: 100%;
+    margin-top: 7%;
+}
 
+.main_items h2, .main_items h3 {
+    padding: 5px 15px;
+    font-family: Geometric sans serif;
+}
+
+@media (max-width: 900px) {
+    .image-container {
+        height: 34vh;
+    }
+    .professional {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .professional p {
+        width: 100%;
+    }
+    .professional .section-header {
+        width: 100%;
+        margin: 0;
+    }
 }
 
 /* Courses Section Started @naseerfetrat*/
@@ -856,10 +842,15 @@ body {
 }
 .about-part h1 {
     margin: 8vh 0vh;
+    font-size: 24px;
+    font-family: Calisto MT ;
 }
 .about-part p {
     letter-spacing: 0.8px;
+    font-family: Geometric sans serif;
+    font-size: 20px;
 }
+
 /* RESPONSIVE CSS for About--------------------------- */
 @media (max-width: 900px) {
     .about-part{
