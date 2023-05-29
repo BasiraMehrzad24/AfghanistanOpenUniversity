@@ -808,3 +808,24 @@ body {
     /* height: 30px; */
     background-color: #004e98;
 }
+
+/*Start of About Style code*/
+.about-part {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5vh;
+}
+.about-part h1 {
+    margin: 8vh 0vh;
+}
+.about-part p {
+    letter-spacing: 0.8px;
+}
+/* RESPONSIVE CSS for About--------------------------- */
+@media (max-width: 900px) {
+    .about-part{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+/*End of About Style code*/
