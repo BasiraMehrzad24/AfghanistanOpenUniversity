@@ -286,6 +286,9 @@ p {
 
 .ourProgram .img img {
     transition: 0.6s all;
+    height: 40vh;
+    border-radius: 8px;
+    width: 100%;
 }
 
 .ourProgram .program_item:hover .img img {
@@ -294,14 +297,14 @@ p {
 
 .ourProgram .details {
     padding: 20px 20px 80px 20px;
-    margin: 0 15px;
+    margin: 0 5.3%;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 8px;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
     transform: translateY(-30%);
     transition: 0.3s ease-out;
     width: 320px;
-    height: 200px;
+    height: 37vh;
 }
 
 .ourProgram .details .detials_item {
@@ -335,7 +338,43 @@ p {
     margin: 10px;
 }
 
+/*My program responave code*/
 
+@media (max-width: 1200px) {
+    .programItems {
+        width: 90%;
+        margin-left: 5%;
+     }  
+    .programItem  {
+        width: 50%;
+    }
+    .ourProgram .img img {
+        height: 45vh;
+        width: 100%;
+    }
+    .ourProgram .details {
+        margin: 0 6%;
+        width: 88%;
+        height: 35vh;
+    }
+    .ourProgram .details h5,.ourProgram .details p {
+        padding: 0;
+        margin: 0;
+    } 
+}
+
+@media (max-width: 800px) { 
+    .ourProgram .img img {
+        height: 48vh;
+    }
+    .ourProgram .details {
+        height: 32vh;
+    }
+    .programItem      {
+        width: 90%;
+        margin-left: 5%;
+    }
+}    
 
 /*language part*/
 .section-header h3 {
