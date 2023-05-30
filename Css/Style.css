@@ -769,10 +769,10 @@ body {
 }
 
 .course-link {
-    height: 120vh;
+    height: auto;
 }
 
-@media (max-width: 1300px) {
+@media (min-width: 1300px) {
     .course-link p {
         font-size: 15px;
     }
@@ -782,9 +782,6 @@ body {
 }
 
 @media (max-width: 900px) {
-    .course-link {
-        height: 90vh;
-    }
     .course-link p {
         font-size: 14px;
     }
@@ -796,11 +793,6 @@ body {
     }
 }
 
-@media (min-width: 500px) {
-    .course-link {
-        height: 80vh;
-    }
-}
 @media (min-width: 992px) {
     .course-card--vertical {
         display: -webkit-box;
@@ -983,7 +975,6 @@ section {
 .footer {
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 100px;
     background-color: #0B2E50;
     align-items: center;
 }
@@ -1017,22 +1008,26 @@ section {
 
 .socialLinks ul li a .fa-facebook-f {
     color: #4267b2;
+    font-size: 35px;
 }
 
 .socialLinks ul li a .fa-twitter {
     color: #1da1f2;
+    font-size: 35px;
 }
 
 .socialLinks ul li a .fa-instagram {
     color: #d92e7f;
+    font-size: 35px;
 }
 
 .socialLinks ul li a .fa-youtube {
     color: #dd5044;
+    font-size: 35px;
 }
 
 
-.socialLinks ul li a:hover i {
+/*.socialLinks ul li a:hover i {
     color: #fff;
 }
 
@@ -1050,26 +1045,83 @@ section {
 
 .socialLinks ul li a:hover .fa-youtube {
     background: #dd5044;
-}
+}*/
 
 .footer h5 {
-    font-weight: 500;
     margin-bottom: 28px;
     text-transform: capitalize;
     font-weight: 600;
     color: #fff;
-    font-size: 18px
+    font-size: 18px;
+    text-align: center;
+}
+
+.blog h5 {
+    text-align: left;
 }
 
 .footer .blog .media img {
-    margin-right: 20px;
-    max-width: 100px;
+    margin-right: 10px;
+    max-width: 100%;
+    height: 8vh;
+    margin-top: 1vh;
 }
 
+.quickLinks ul li {
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .socialLinks {
+        width: 100%;
+    }
+
+    .socialLinks ul li, .quickLinks ul li {
+        display: inline-block;
+    }
+
+    .socialLinks ul li {
+        text-align: center;
+    }
+
+    .footer-links h5  {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .footer-links {
+        width: 90%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .blog .media {
+        display: inline-block;
+        width: 40%;
+        margin: 0 4%; 
+    }
+
+    .footer .blog .media img {
+        width: 100%;
+        height: 10vh;
+    }
+
+    .footer .quickLinks ul li a,
+    .footer .contact ul li a{
+        text-align: left;
+    }
+
+    .footer .blog .media .media-body .content p {
+        font-size: 14px;
+    }
+
+    .footer .blog .media .media-body .content span {
+        font-size: 10px;
+    }
+}
 .footer .blog .media p {
     font-size: 16px;
     color: rgba(255, 255, 255, .8);
-    ;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -1093,9 +1145,7 @@ section {
 .footer .contact ul li a {
     font-size: 15px;
     color: rgba(255, 255, 255, .6);
-    ;
     text-transform: capitalize;
-    margin-bottom: 10px;
     display: block;
 }
 
@@ -1115,4 +1165,4 @@ section {
     font-weight: 600;
     color: #fff;
     font-size: 18px;
-}
+}      
