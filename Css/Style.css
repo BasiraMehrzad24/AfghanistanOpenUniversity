@@ -934,7 +934,7 @@ body {
 }
 
 .profile-sidebar {
-    display:flex;
+    display: flex;
 
 }
 
@@ -946,7 +946,7 @@ body {
     font-size: 14px;
     margin-left: 10px;
     color: #004E98;
-    margin-top:10px ;
+    margin-top: 10px;
 }
 
 
@@ -988,38 +988,86 @@ body {
 }
 
 
+/*JOBs section*/
+
+.jobs-card{
+    margin: auto;
+   
+}
+
+.section-header h3 {
+    color: #004E98;
+    font-size: 24px;
+}
+
+.section-header p {
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.card-title {
+    color: #004E98;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.mycard {
+    border-radius: 25px;
+    width: 283px;
+    float: left;
+    margin-left: 72px;
+}
+
+.card-title {
+    color: #004E98;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
 
 
+.card-details {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
 
 
+.card-footer-1 {
+    margin: right;
+    display: inline;
+    border-top: none;
+    margin: 15px;
+}
 
 
+.card-footer-1 button {
+    color: #fff;
+    background-color: #004E98;
+    font-size: 12px;
+    padding: 4px;
+    float: right;
+    margin: 5px;
+}
 
+.roundTop {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
 
+.click_more .btn {
+    float: right;
+    color: #004e98;
+    margin: 30px;
+    background-color: #fff;
 
-
-
+}
 
 
 /*Start of About Style code*/
-.about-part {
-    width: 60%;
-    margin-left: 20%;
-    margin-bottom: 5vh;
-}
-
-.about-part h1 {
-    margin: 8vh 0vh;
-    font-size: 24px;
-    font-family: Calisto MT;
-    color: #004E98;
-}
-
-.about-part p {
-    letter-spacing: 0.8px;
-    font-family: Geometric sans serif;
-    font-size: 20px;
-}
 
 /* RESPONSIVE CSS for About--------------------------- */
 @media (max-width: 900px) {
