@@ -207,7 +207,7 @@ ul li a {
     padding: 1vh 2vh;
     margin-top: 15px;
     color: white;
-    background-color: #3A6EA5;
+    /* background-color: #3A6EA5; */
     border: 2px solid transparent;
     border-radius: 5px;
     font-size: 16px;
@@ -338,6 +338,10 @@ ul li a {
     font-family: Geometric sans serif;
 }
 
+.click_more .btn:hover {
+    border: 1px solid #004E98;
+}
+
 .details .btn {
     float: center;
     background-color: #004e98;
@@ -420,15 +424,16 @@ ul li a {
     border: 10px;
     transition: 0.6s all;
     border-radius: 10px;
-    width: 300px;
-    height: 250px;
+    width: 320px;
+    height: 280px;
     margin: 22px;
-    padding: 15px;
+    padding: 5px;
     float: left;
 }
 
 .inner .one a {
     text-decoration: none;
+
 }
 
 .one:hover {
@@ -438,33 +443,33 @@ ul li a {
 .one h3,
 .one p {
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     font-size: 20px;
     font-family: Calisto MT;
 }
 
 .one p {
     font-size: 16px;
-    padding-top: 10px;
     letter-spacing: 0.8px;
     font-family: Geometric sans serif;
+
 
 }
 
 .one h3 {
     color: #004E98;
+    padding-top: 25px;
+    padding-bottom: 0;
 }
 
-button {
+.btn-language {
     border: 1px solid #ffffff;
     border-radius: 10px;
     padding: 7px;
-    background-color: #004E98;
     font-family: Geometric sans serif;
     display: block;
     margin: 0 auto;
-    margin-top: 18px;
-    color: #ffffff;
+    margin-bottom: -200px;
 }
 
 /*Professional Program*/
@@ -766,6 +771,7 @@ body {
 .begin-now-btn {
     color: #004e98;
     font-family: Geometric sans serif;
+    /* height: 30px !important; */
 }
 
 .course-link {
@@ -898,13 +904,16 @@ body {
     font-size: 16px;
 }
 
-.btn-register {
-    /* line-height: 13px !important; */
-    /* height: 30px; */
+.website-btn {
+    line-height: 20px !important;
+    height: 36px !important;
     background-color: #004e98;
     font-family: Geometric sans serif;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
 }
-
 
 
 
@@ -934,7 +943,7 @@ body {
 }
 
 .profile-sidebar {
-    display:flex;
+    display: flex;
 
 }
 
@@ -946,7 +955,7 @@ body {
     font-size: 14px;
     margin-left: 10px;
     color: #004E98;
-    margin-top:10px ;
+    margin-top: 10px;
 }
 
 
