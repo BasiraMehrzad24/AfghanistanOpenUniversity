@@ -999,9 +999,9 @@ body {
 
 /*JOBs section*/
 
-.jobs-card{
+.jobs-card {
     margin: auto;
-   
+
 }
 
 .section-header h3 {
@@ -1070,8 +1070,9 @@ body {
 .click_more .btn {
     float: right;
     color: #004e98;
-    margin: 30px;
+    margin: 10px;
     background-color: #fff;
+    border: 1px solid #004E98;
 
 }
 
