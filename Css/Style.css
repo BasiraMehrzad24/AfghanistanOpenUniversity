@@ -9,7 +9,7 @@ a.navbar-brand {
 ul li a {
     color: #004e98 !important;
     font-weight: 500 !important;
-    font-size: 15px !important;
+    font-size: 16px !important;
     padding: 8px 22px !important;
     height: 40px;
     font-family: Calisto MT;
@@ -271,6 +271,7 @@ ul li a {
     color: #004E98;
     font-size: 24px;
     font-family: Calisto MT;
+    font-weight: 600;
 }
 
 .section-header p {
@@ -953,6 +954,8 @@ body {
     margin-left: 10px;
     color: #004E98;
     margin-top: 10px;
+    letter-spacing: 0.8px;
+    font-family: Geometric sans serif;
 }
 
 .profile-position {
@@ -962,6 +965,8 @@ body {
     letter-spacing: 2px;
     color: rgb(146, 186, 221);
     margin-bottom: 2em;
+    letter-spacing: 0.8px;
+    font-family: Geometric sans serif;
 }
 
 .profile-body {
@@ -970,6 +975,8 @@ body {
     margin-bottom: 0;
     text-align: center;
     margin-left: -20px;
+    letter-spacing: 0.8px;
+    font-family: Geometric sans serif;
 }
 
 .info {
@@ -1001,6 +1008,8 @@ body {
 .section-header h3 {
     color: #004E98;
     font-size: 24px;
+    font-family: Calisto MT;
+    letter-spacing: 0.8px;
 }
 
 .jobs-card {
@@ -1015,6 +1024,8 @@ body {
 .section-header p {
     text-align: center;
     font-size: 16px;
+    letter-spacing: 0.8px;
+    font-family: Geometric sans serif;
 
 }
 
@@ -1022,6 +1033,9 @@ body {
     color: #004E98;
     margin-top: 10px;
     margin-left: 20px;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    font-family: Geometric sans serif;
 }
 
 .jobs .mycard img {
@@ -1043,6 +1057,8 @@ body {
     font-size: 16px;
     margin-top: 10px;
     margin-left: 20px;
+    letter-spacing: 0.8px;
+    font-family: Geometric sans serif;
 }
 
 .card-footer-1 {
@@ -1059,6 +1075,8 @@ body {
     padding: 4px;
     float: right;
     margin: 5px;
+    letter-spacing: 0.8px;
+    font-family: Geometric sans serif;
 }
 
 .roundTop {
@@ -1086,12 +1104,17 @@ body {
 .about-part h1 {
     margin: 8vh 0vh;
     font-size: 24px;
+    letter-spacing: 0.8px;
+    color: #004e98;
+    font-family: Calisto MT;
 }
 
 .about-part p {
     letter-spacing: 0.8px;
     line-height: 30px;
     font-size: 16px;
+    font-family: Geometric sans serif;
+    
 }
 
 /* RESPONSIVE CSS for About--------------------------- */
@@ -1224,10 +1247,12 @@ section {
 .footer h5 {
     margin-bottom: 28px;
     text-transform: capitalize;
-    font-weight: 600;
-    color: #fff;
+    font-weight: 500;
+    color: #ffffff;
     font-size: 18px;
     text-align: center;
+    letter-spacing: 0.8px;
+    font-family: Geometric sans serif;
 }
 
 .blog h5 {
@@ -1301,8 +1326,10 @@ section {
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 26px;
+    letter-spacing: 0.8px;
+    font-family: Geometric sans serif;
 }
 
 .footer .blog .media span {
@@ -1311,6 +1338,8 @@ section {
     text-transform: uppercase;
     margin-top: 15px;
     display: block;
+    letter-spacing: 0.8px;
+    font-family: Geometric sans serif;
 }
 
 .footer .blog .media {
@@ -1320,7 +1349,7 @@ section {
 .footer .quickLinks ul li a,
 .footer .contact ul li a {
     font-size: 15px;
-    color: rgba(255, 255, 255, .6);
+    color: #ffffff;
     text-transform: capitalize;
     display: block;
 }
@@ -1331,14 +1360,18 @@ section {
 
 .footer .quickLinks h5 {
     margin-bottom: 22px;
-    font-weight: 600;
-    color: #fff;
+    font-weight: 500;
+    color: #ffffff;
     font-size: 18px;
+    letter-spacing: 0.8px;
+    font-family: Geometric sans serif;
 }
 
 .footer .contact h5 {
     margin-bottom: 22px;
-    font-weight: 600;
-    color: #fff;
+    font-weight: 500;
+    color: #ffffff;
     font-size: 18px;
+    letter-spacing: 0.8px;
+    font-family: Geometric sans serif;
 }
