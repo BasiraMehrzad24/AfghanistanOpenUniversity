@@ -1076,6 +1076,24 @@ body {
 
 /*Start of About Style code*/
 
+.about-part {
+    width: 60%;
+    margin-left: 20%;
+    font-family: Calisto MT;
+    padding: 8% 0;
+}
+
+.about-part h1 {
+    margin: 8vh 0vh;
+    font-size: 24px;
+}
+
+.about-part p {
+    letter-spacing: 0.8px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
 /* RESPONSIVE CSS for About--------------------------- */
 @media (max-width: 900px) {
     .about-part {
@@ -1124,7 +1142,7 @@ ul {
 }
 
 section {
-    padding: 30px 0;
+    padding: 20px 0 80px 0;
     height: auto;
 }
 
