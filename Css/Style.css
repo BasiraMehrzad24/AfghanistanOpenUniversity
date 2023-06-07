@@ -1002,7 +1002,7 @@ body {
 
 .jobs {
     background-color: #EdEbEE;
-    margin: 4% 0; 
+    margin: 4% 0;
 }
 
 .section-header h3 {
@@ -1041,7 +1041,7 @@ body {
 .jobs .mycard img {
     width: 100%;
     height: 250px;
-    margin: 0;  
+    margin: 0;
     padding: 0;
 }
 
@@ -1084,13 +1084,30 @@ body {
     border-top-left-radius: 20px;
 }
 
-.click_more a .btn {
+.jobs-card .card-footer-1 .btn-job {
     float: right;
     color: #004e98;
-    margin: 10px;
+    margin-right: 20px;
     background-color: #fff;
     border: 1px solid #004E98;
 }
+
+.jobs-card .card-footer-1 .btn-job:hover {
+    float: right;
+    color: #fff;
+    margin-right: 20px;
+    background-color: #004E98;
+    border: 1px solid #004E98;
+}
+
+.jobs-card .card-footer-1 .btn-job-about:hover {
+    background-color: #fff;
+    border: 1px solid #004E98;
+    color: #004e98;
+
+}
+
+
 
 /*Start of About Style code*/
 
@@ -1115,7 +1132,7 @@ body {
     line-height: 30px;
     font-size: 16px;
     font-family: Geometric sans serif;
-    
+
 }
 
 /* RESPONSIVE CSS for About--------------------------- */
