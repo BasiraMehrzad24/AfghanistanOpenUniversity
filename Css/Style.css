@@ -178,7 +178,7 @@ ul li a {
 }
 
 .carousel-caption {
-    top: 25vh;
+    top: 30vh;
     z-index: 10;
 }
 
@@ -239,7 +239,7 @@ ul li a {
     }
 
     .carousel-caption {
-        top: 8vh;
+        top: 13vh;
     }
 
     .carousel-caption h1 {
