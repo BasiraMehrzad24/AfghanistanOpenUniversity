@@ -934,13 +934,19 @@ body {
 
 .card-body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    padding: 2em;
+    padding: 20px 20px;
     border-radius: 20px;
-    width: 300px;
-    height: auto;
+    width: 400px;
+    height: 400px;
     margin: 4.5% auto;
+    justify-content: space-between;
+    
+    
 }
-
+.row{
+    margin-right: -3em;
+    margin-left: -4.5em;
+}
 .profile-sidebar {
     display: flex;
 }
@@ -977,6 +983,7 @@ body {
     margin-left: -20px;
     letter-spacing: 0.8px;
     font-family: Geometric sans serif;
+    box-sizing: border-box;
 }
 
 .info {
