@@ -1141,6 +1141,59 @@ body {
     font-family: Geometric sans serif;
 
 }
+/* about us style  */
+.about-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 204px 0 205px;
+    position: relative;
+    width:100%;
+}
+.about-image::before {
+    background: rgba(0, 0, 0, 0.80) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.about-image h1 {
+    color: #ffffff;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 40px;
+    position: relative;
+    text-transform: uppercase;
+    font-family: Calisto MT;
+}
+.about_path {
+    color: #fff;
+    margin-top: 8px;
+    position: relative;
+    z-index: 9;
+}
+.about_path > a {
+    color: #fff;
+    transition: all 0.3s ease 0s;
+    font-family: Calisto MT;
+}
+.about-p{
+    font-family: Geometric sans serif;
+    font-size: 18px;       
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-align: justify;
+    text-justify: inter-word;
+    /* text-indent: -8px; */
+    /* line-height: 0.5; */
+    /* margin: 15px 15px 10px 0; */
+}
+.about-p li{
+    margin-left: 30px;
+}
 
 /* RESPONSIVE CSS for About--------------------------- */
 @media (max-width: 900px) {
